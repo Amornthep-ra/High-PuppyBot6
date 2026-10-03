@@ -34,3 +34,11 @@ The upstream installation and other board packages are unchanged.
 The compiler tools use the upstream rp2040 package namespace. Their download
 metadata is included in this index, so this URL also works on a fresh installation.
 Board FQBN: `highpuppybot6:rp2040:highpuppybot6`.
+
+## Validation
+
+Version 1.0.0 was downloaded and installed from the public Boards Manager URL
+and GitHub release. The mission example compiled with the dedicated board FQBN
+and the library bundled in the installed package: 130,640 bytes of flash and
+17,912 bytes of RAM. Compilation still reports warnings from the original IMU
+driver. Robot hardware operation has not been tested as part of this port.
