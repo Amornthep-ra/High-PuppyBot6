@@ -1,0 +1,299 @@
+menu.BoardModel=Model
+menu.variantchip=Chip Variant
+menu.flash=Flash Size
+menu.psramcs=PSRAM CS
+menu.psram=PSRAM Size
+menu.psramfreq=PSRAM Speed
+menu.freq=CPU Speed
+menu.arch=CPU Architecture
+menu.opt=Optimize
+menu.os=Operating System
+menu.profile=Profiling
+menu.rtti=RTTI
+menu.stackprotect=Stack Protector
+menu.exceptions=C++ Exceptions
+menu.dbgport=Debug Port
+menu.dbglvl=Debug Level
+menu.boot2=Boot Stage 2
+menu.wificountry=WiFi Region
+menu.usbstack=USB Stack
+menu.espwifitype=ESP Wifi Type
+menu.ipbtstack=IP/Bluetooth Stack
+menu.uploadmethod=Upload Method
+highpuppybot6.name=High-PuppyBot6
+highpuppybot6.vid.0=0x2e8a
+highpuppybot6.pid.0=0xf00f
+highpuppybot6.vid.1=0x2e8a
+highpuppybot6.pid.1=0xf10f
+highpuppybot6.upload_port.0.vid=0x2e8a
+highpuppybot6.upload_port.0.pid=0xf00f
+highpuppybot6.upload_port.1.vid=0x2e8a
+highpuppybot6.upload_port.1.pid=0xf10f
+highpuppybot6.build.usbvid=-DUSBD_VID=0x2e8a
+highpuppybot6.build.usbpid=-DUSBD_PID=0xf00f
+highpuppybot6.build.usbpwr=-DUSBD_MAX_POWER_MA=250
+highpuppybot6.build.board=HIGH_PUPPYBOT6
+highpuppybot6.build.variant=highpuppybot6
+highpuppybot6.upload.maximum_size=16777216
+highpuppybot6.upload.wait_for_upload_port=true
+highpuppybot6.upload.erase_cmd=
+highpuppybot6.serial.disableDTR=false
+highpuppybot6.serial.disableRTS=false
+highpuppybot6.build.f_cpu=150000000L
+highpuppybot6.build.led=
+highpuppybot6.build.core=rp2040
+highpuppybot6.build.ldscript=memmap_default.ld
+highpuppybot6.build.boot2=none
+highpuppybot6.build.usb_manufacturer="Generic"
+highpuppybot6.build.usb_product="High-PuppyBot6"
+highpuppybot6.menu.arch.arm=ARM
+highpuppybot6.menu.arch.arm.build.chip=rp2350
+highpuppybot6.menu.arch.arm.build.toolchain=arm-none-eabi
+highpuppybot6.menu.arch.arm.build.toolchainpkg=pqt-gcc
+highpuppybot6.menu.arch.arm.build.toolchainopts=-mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse
+highpuppybot6.menu.arch.arm.build.uf2family=--family rp2350-arm-s --abs-block
+highpuppybot6.menu.arch.arm.build.mcu=cortex-m33
+highpuppybot6.menu.arch.riscv=RISC-V
+highpuppybot6.menu.arch.riscv.build.chip=rp2350-riscv
+highpuppybot6.menu.arch.riscv.build.toolchain=riscv32-unknown-elf
+highpuppybot6.menu.arch.riscv.build.toolchainpkg=pqt-gcc-riscv
+highpuppybot6.menu.arch.riscv.build.toolchainopts=-march=rv32imac_zicsr_zifencei_zba_zbb_zbs_zbkb -mabi=ilp32
+highpuppybot6.menu.arch.riscv.build.uf2family=--family rp2350-riscv --abs-block
+highpuppybot6.menu.arch.riscv.build.mcu=rv32imac
+highpuppybot6.menu.psramcs.GPIOnone=None
+highpuppybot6.menu.psramcs.GPIOnone.build.psram_cs=
+highpuppybot6.menu.psramcs.GPIO0=GPIO 0
+highpuppybot6.menu.psramcs.GPIO0.build.psram_cs=-DRP2350_PSRAM_CS=0
+highpuppybot6.menu.psramcs.GPIO1=GPIO 1
+highpuppybot6.menu.psramcs.GPIO1.build.psram_cs=-DRP2350_PSRAM_CS=1
+highpuppybot6.menu.psramcs.GPIO2=GPIO 2
+highpuppybot6.menu.psramcs.GPIO2.build.psram_cs=-DRP2350_PSRAM_CS=2
+highpuppybot6.menu.psramcs.GPIO3=GPIO 3
+highpuppybot6.menu.psramcs.GPIO3.build.psram_cs=-DRP2350_PSRAM_CS=3
+highpuppybot6.menu.psramcs.GPIO4=GPIO 4
+highpuppybot6.menu.psramcs.GPIO4.build.psram_cs=-DRP2350_PSRAM_CS=4
+highpuppybot6.menu.psramcs.GPIO5=GPIO 5
+highpuppybot6.menu.psramcs.GPIO5.build.psram_cs=-DRP2350_PSRAM_CS=5
+highpuppybot6.menu.psramcs.GPIO6=GPIO 6
+highpuppybot6.menu.psramcs.GPIO6.build.psram_cs=-DRP2350_PSRAM_CS=6
+highpuppybot6.menu.psramcs.GPIO7=GPIO 7
+highpuppybot6.menu.psramcs.GPIO7.build.psram_cs=-DRP2350_PSRAM_CS=7
+highpuppybot6.menu.psramcs.GPIO8=GPIO 8
+highpuppybot6.menu.psramcs.GPIO8.build.psram_cs=-DRP2350_PSRAM_CS=8
+highpuppybot6.menu.psramcs.GPIO9=GPIO 9
+highpuppybot6.menu.psramcs.GPIO9.build.psram_cs=-DRP2350_PSRAM_CS=9
+highpuppybot6.menu.psramcs.GPIO10=GPIO 10
+highpuppybot6.menu.psramcs.GPIO10.build.psram_cs=-DRP2350_PSRAM_CS=10
+highpuppybot6.menu.psramcs.GPIO11=GPIO 11
+highpuppybot6.menu.psramcs.GPIO11.build.psram_cs=-DRP2350_PSRAM_CS=11
+highpuppybot6.menu.psramcs.GPIO12=GPIO 12
+highpuppybot6.menu.psramcs.GPIO12.build.psram_cs=-DRP2350_PSRAM_CS=12
+highpuppybot6.menu.psramcs.GPIO13=GPIO 13
+highpuppybot6.menu.psramcs.GPIO13.build.psram_cs=-DRP2350_PSRAM_CS=13
+highpuppybot6.menu.psramcs.GPIO14=GPIO 14
+highpuppybot6.menu.psramcs.GPIO14.build.psram_cs=-DRP2350_PSRAM_CS=14
+highpuppybot6.menu.psramcs.GPIO15=GPIO 15
+highpuppybot6.menu.psramcs.GPIO15.build.psram_cs=-DRP2350_PSRAM_CS=15
+highpuppybot6.menu.psramcs.GPIO16=GPIO 16
+highpuppybot6.menu.psramcs.GPIO16.build.psram_cs=-DRP2350_PSRAM_CS=16
+highpuppybot6.menu.psramcs.GPIO17=GPIO 17
+highpuppybot6.menu.psramcs.GPIO17.build.psram_cs=-DRP2350_PSRAM_CS=17
+highpuppybot6.menu.psramcs.GPIO18=GPIO 18
+highpuppybot6.menu.psramcs.GPIO18.build.psram_cs=-DRP2350_PSRAM_CS=18
+highpuppybot6.menu.psramcs.GPIO19=GPIO 19
+highpuppybot6.menu.psramcs.GPIO19.build.psram_cs=-DRP2350_PSRAM_CS=19
+highpuppybot6.menu.psramcs.GPIO20=GPIO 20
+highpuppybot6.menu.psramcs.GPIO20.build.psram_cs=-DRP2350_PSRAM_CS=20
+highpuppybot6.menu.psramcs.GPIO21=GPIO 21
+highpuppybot6.menu.psramcs.GPIO21.build.psram_cs=-DRP2350_PSRAM_CS=21
+highpuppybot6.menu.psramcs.GPIO22=GPIO 22
+highpuppybot6.menu.psramcs.GPIO22.build.psram_cs=-DRP2350_PSRAM_CS=22
+highpuppybot6.menu.psramcs.GPIO23=GPIO 23
+highpuppybot6.menu.psramcs.GPIO23.build.psram_cs=-DRP2350_PSRAM_CS=23
+highpuppybot6.menu.psramcs.GPIO24=GPIO 24
+highpuppybot6.menu.psramcs.GPIO24.build.psram_cs=-DRP2350_PSRAM_CS=24
+highpuppybot6.menu.psramcs.GPIO25=GPIO 25
+highpuppybot6.menu.psramcs.GPIO25.build.psram_cs=-DRP2350_PSRAM_CS=25
+highpuppybot6.menu.psramcs.GPIO26=GPIO 26
+highpuppybot6.menu.psramcs.GPIO26.build.psram_cs=-DRP2350_PSRAM_CS=26
+highpuppybot6.menu.psramcs.GPIO27=GPIO 27
+highpuppybot6.menu.psramcs.GPIO27.build.psram_cs=-DRP2350_PSRAM_CS=27
+highpuppybot6.menu.psramcs.GPIO28=GPIO 28
+highpuppybot6.menu.psramcs.GPIO28.build.psram_cs=-DRP2350_PSRAM_CS=28
+highpuppybot6.menu.psramcs.GPIO29=GPIO 29
+highpuppybot6.menu.psramcs.GPIO29.build.psram_cs=-DRP2350_PSRAM_CS=29
+highpuppybot6.menu.psramcs.GPIO30=GPIO 30
+highpuppybot6.menu.psramcs.GPIO30.build.psram_cs=-DRP2350_PSRAM_CS=30
+highpuppybot6.menu.psramcs.GPIO31=GPIO 31
+highpuppybot6.menu.psramcs.GPIO31.build.psram_cs=-DRP2350_PSRAM_CS=31
+highpuppybot6.menu.psramcs.GPIO32=GPIO 32
+highpuppybot6.menu.psramcs.GPIO32.build.psram_cs=-DRP2350_PSRAM_CS=32
+highpuppybot6.menu.psramcs.GPIO33=GPIO 33
+highpuppybot6.menu.psramcs.GPIO33.build.psram_cs=-DRP2350_PSRAM_CS=33
+highpuppybot6.menu.psramcs.GPIO34=GPIO 34
+highpuppybot6.menu.psramcs.GPIO34.build.psram_cs=-DRP2350_PSRAM_CS=34
+highpuppybot6.menu.psramcs.GPIO35=GPIO 35
+highpuppybot6.menu.psramcs.GPIO35.build.psram_cs=-DRP2350_PSRAM_CS=35
+highpuppybot6.menu.psramcs.GPIO36=GPIO 36
+highpuppybot6.menu.psramcs.GPIO36.build.psram_cs=-DRP2350_PSRAM_CS=36
+highpuppybot6.menu.psramcs.GPIO37=GPIO 37
+highpuppybot6.menu.psramcs.GPIO37.build.psram_cs=-DRP2350_PSRAM_CS=37
+highpuppybot6.menu.psramcs.GPIO38=GPIO 38
+highpuppybot6.menu.psramcs.GPIO38.build.psram_cs=-DRP2350_PSRAM_CS=38
+highpuppybot6.menu.psramcs.GPIO39=GPIO 39
+highpuppybot6.menu.psramcs.GPIO39.build.psram_cs=-DRP2350_PSRAM_CS=39
+highpuppybot6.menu.psramcs.GPIO40=GPIO 40
+highpuppybot6.menu.psramcs.GPIO40.build.psram_cs=-DRP2350_PSRAM_CS=40
+highpuppybot6.menu.psramcs.GPIO41=GPIO 41
+highpuppybot6.menu.psramcs.GPIO41.build.psram_cs=-DRP2350_PSRAM_CS=41
+highpuppybot6.menu.psramcs.GPIO42=GPIO 42
+highpuppybot6.menu.psramcs.GPIO42.build.psram_cs=-DRP2350_PSRAM_CS=42
+highpuppybot6.menu.psramcs.GPIO43=GPIO 43
+highpuppybot6.menu.psramcs.GPIO43.build.psram_cs=-DRP2350_PSRAM_CS=43
+highpuppybot6.menu.psramcs.GPIO44=GPIO 44
+highpuppybot6.menu.psramcs.GPIO44.build.psram_cs=-DRP2350_PSRAM_CS=44
+highpuppybot6.menu.psramcs.GPIO45=GPIO 45
+highpuppybot6.menu.psramcs.GPIO45.build.psram_cs=-DRP2350_PSRAM_CS=45
+highpuppybot6.menu.psramcs.GPIO46=GPIO 46
+highpuppybot6.menu.psramcs.GPIO46.build.psram_cs=-DRP2350_PSRAM_CS=46
+highpuppybot6.menu.psramcs.GPIO47=GPIO 47
+highpuppybot6.menu.psramcs.GPIO47.build.psram_cs=-DRP2350_PSRAM_CS=47
+highpuppybot6.menu.psram.0mb=0MByte PSRAM
+highpuppybot6.menu.psram.0mb.build.psram_length=0x000000
+highpuppybot6.menu.psram.2mb=2MByte PSRAM
+highpuppybot6.menu.psram.2mb.build.psram_length=0x200000
+highpuppybot6.menu.psram.4mb=4MByte PSRAM
+highpuppybot6.menu.psram.4mb.build.psram_length=0x400000
+highpuppybot6.menu.psram.8mb=8MByte PSRAM
+highpuppybot6.menu.psram.8mb.build.psram_length=0x800000
+highpuppybot6.menu.psram.16mb=16MByte PSRAM
+highpuppybot6.menu.psram.16mb.build.psram_length=0x1600000
+highpuppybot6.menu.psramfreq.freq104=104 MHz
+highpuppybot6.menu.psramfreq.freq104.build.psram_freq=-DRP2350_PSRAM_MAX_SCK_HZ=104000000
+highpuppybot6.menu.psramfreq.freq109=109 MHz
+highpuppybot6.menu.psramfreq.freq109.build.psram_freq=-DRP2350_PSRAM_MAX_SCK_HZ=109000000
+highpuppybot6.menu.psramfreq.freq133=133 MHz
+highpuppybot6.menu.psramfreq.freq133.build.psram_freq=-DRP2350_PSRAM_MAX_SCK_HZ=133000000
+highpuppybot6.menu.opt.Small=Small (-Os) (standard)
+highpuppybot6.menu.opt.Small.build.flags.optimize=-Os
+highpuppybot6.menu.opt.Optimize=Optimize (-O)
+highpuppybot6.menu.opt.Optimize.build.flags.optimize=-O
+highpuppybot6.menu.opt.Optimize2=Optimize More (-O2)
+highpuppybot6.menu.opt.Optimize2.build.flags.optimize=-O2
+highpuppybot6.menu.opt.Optimize3=Optimize Even More (-O3)
+highpuppybot6.menu.opt.Optimize3.build.flags.optimize=-O3
+highpuppybot6.menu.opt.Fast=Fast (-Ofast) (maybe slower)
+highpuppybot6.menu.opt.Fast.build.flags.optimize=-Ofast
+highpuppybot6.menu.opt.Debug=Debug (-Og)
+highpuppybot6.menu.opt.Debug.build.flags.optimize=-Og
+highpuppybot6.menu.opt.Disabled=Disabled (-O0)
+highpuppybot6.menu.opt.Disabled.build.flags.optimize=-O0
+highpuppybot6.menu.os.none=None
+highpuppybot6.menu.os.none.build.os=
+highpuppybot6.menu.os.freertos=FreeRTOS SMP
+highpuppybot6.menu.os.freertos.build.os=-D__FREERTOS
+highpuppybot6.menu.profile.Disabled=Disabled
+highpuppybot6.menu.profile.Disabled.build.flags.profile=
+highpuppybot6.menu.profile.Enabled=Enabled
+highpuppybot6.menu.profile.Enabled.build.flags.profile=-pg -D__PROFILE
+highpuppybot6.menu.rtti.Disabled=Disabled
+highpuppybot6.menu.rtti.Disabled.build.flags.rtti=-fno-rtti
+highpuppybot6.menu.rtti.Enabled=Enabled
+highpuppybot6.menu.rtti.Enabled.build.flags.rtti=
+highpuppybot6.menu.stackprotect.Disabled=Disabled
+highpuppybot6.menu.stackprotect.Disabled.build.flags.stackprotect=
+highpuppybot6.menu.stackprotect.Enabled=Enabled
+highpuppybot6.menu.stackprotect.Enabled.build.flags.stackprotect=-fstack-protector-all
+highpuppybot6.menu.exceptions.Disabled=Disabled
+highpuppybot6.menu.exceptions.Disabled.build.flags.exceptions=-fno-exceptions
+highpuppybot6.menu.exceptions.Disabled.build.flags.libstdcpp=-lstdc++
+highpuppybot6.menu.exceptions.Enabled=Enabled
+highpuppybot6.menu.exceptions.Enabled.build.flags.exceptions=-fexceptions
+highpuppybot6.menu.exceptions.Enabled.build.flags.libstdcpp=-lstdc++-exc
+highpuppybot6.menu.dbgport.Disabled=Disabled
+highpuppybot6.menu.dbgport.Disabled.build.debug_port=
+highpuppybot6.menu.dbgport.Serial=Serial
+highpuppybot6.menu.dbgport.Serial.build.debug_port=-DDEBUG_RP2040_PORT=Serial
+highpuppybot6.menu.dbgport.Serial1=Serial1
+highpuppybot6.menu.dbgport.Serial1.build.debug_port=-DDEBUG_RP2040_PORT=Serial1
+highpuppybot6.menu.dbgport.Serial2=Serial2
+highpuppybot6.menu.dbgport.Serial2.build.debug_port=-DDEBUG_RP2040_PORT=Serial2
+highpuppybot6.menu.dbgport.SerialSemi=SerialSemi
+highpuppybot6.menu.dbgport.SerialSemi.build.debug_port=-DDEBUG_RP2040_PORT=SerialSemi
+highpuppybot6.menu.dbglvl.None=None
+highpuppybot6.menu.dbglvl.None.build.debug_level=
+highpuppybot6.menu.dbglvl.Core=Core
+highpuppybot6.menu.dbglvl.Core.build.debug_level=-DDEBUG_RP2040_CORE
+highpuppybot6.menu.dbglvl.SPI=SPI
+highpuppybot6.menu.dbglvl.SPI.build.debug_level=-DDEBUG_RP2040_SPI
+highpuppybot6.menu.dbglvl.Wire=Wire
+highpuppybot6.menu.dbglvl.Wire.build.debug_level=-DDEBUG_RP2040_WIRE
+highpuppybot6.menu.dbglvl.Bluetooth=Bluetooth
+highpuppybot6.menu.dbglvl.Bluetooth.build.debug_level=-DDEBUG_RP2040_BLUETOOTH
+highpuppybot6.menu.dbglvl.BLE=BLE
+highpuppybot6.menu.dbglvl.BLE.build.debug_level=-DDEBUG_RP2040_BLE
+highpuppybot6.menu.dbglvl.LWIP=LWIP
+highpuppybot6.menu.dbglvl.LWIP.build.debug_level=-DLWIP_DEBUG=1
+highpuppybot6.menu.dbglvl.All=All
+highpuppybot6.menu.dbglvl.All.build.debug_level=-DDEBUG_RP2040_WIRE -DDEBUG_RP2040_SPI -DDEBUG_RP2040_CORE -DDEBUG_RP2040_BLUETOOTH -DDEBUG_RP2040_BLE -DLWIP_DEBUG=1
+highpuppybot6.menu.dbglvl.NDEBUG=NDEBUG
+highpuppybot6.menu.dbglvl.NDEBUG.build.debug_level=-DNDEBUG
+highpuppybot6.menu.usbstack.picosdk=Pico SDK
+highpuppybot6.menu.usbstack.picosdk.build.usbstack_flags=
+highpuppybot6.menu.usbstack.tinyusb=Adafruit TinyUSB
+highpuppybot6.menu.usbstack.tinyusb.build.usbstack_flags=-DUSE_TINYUSB "-I{runtime.platform.path}/libraries/Adafruit_TinyUSB_Arduino/src/arduino"
+highpuppybot6.menu.usbstack.tinyusb_host=Adafruit TinyUSB Host (native)
+highpuppybot6.menu.usbstack.tinyusb_host.build.usbstack_flags=-DUSE_TINYUSB -DUSE_TINYUSB_HOST "-I{runtime.platform.path}/libraries/Adafruit_TinyUSB_Arduino/src/arduino"
+highpuppybot6.menu.usbstack.nousb=No USB
+highpuppybot6.menu.usbstack.nousb.build.usbstack_flags="-DNO_USB -DDISABLE_USB_SERIAL -I{runtime.platform.path}/tools/libpico"
+highpuppybot6.menu.ipbtstack.ipv4only=IPv4 Only
+highpuppybot6.menu.ipbtstack.ipv4only.build.libpicow=liblwip.a
+highpuppybot6.menu.ipbtstack.ipv4only.build.libpicowdefs=-DLWIP_IPV6=0 -DLWIP_IPV4=1
+highpuppybot6.menu.ipbtstack.ipv4ipv6=IPv4 + IPv6
+highpuppybot6.menu.ipbtstack.ipv4ipv6.build.libpicow=liblwip.a
+highpuppybot6.menu.ipbtstack.ipv4ipv6.build.libpicowdefs=-DLWIP_IPV6=1 -DLWIP_IPV4=1
+highpuppybot6.menu.ipbtstack.ipv4btcble=IPv4 + Bluetooth
+highpuppybot6.menu.ipbtstack.ipv4btcble.build.libpicow=liblwip-bt.a
+highpuppybot6.menu.ipbtstack.ipv4btcble.build.libpicowdefs=-DLWIP_IPV6=0 -DLWIP_IPV4=1 -DENABLE_CLASSIC=1 -DENABLE_BLE=1 -DCYW43_ENABLE_BLUETOOTH=1
+highpuppybot6.menu.ipbtstack.ipv4ipv6btcble=IPv4 + IPv6 + Bluetooth
+highpuppybot6.menu.ipbtstack.ipv4ipv6btcble.build.libpicow=liblwip-bt.a
+highpuppybot6.menu.ipbtstack.ipv4ipv6btcble.build.libpicowdefs=-DLWIP_IPV6=1 -DLWIP_IPV4=1 -DENABLE_CLASSIC=1 -DENABLE_BLE=1 -DCYW43_ENABLE_BLUETOOTH=1
+highpuppybot6.menu.ipbtstack.ipv4onlybig=IPv4 Only - 32K
+highpuppybot6.menu.ipbtstack.ipv4onlybig.build.libpicow=liblwip.a
+highpuppybot6.menu.ipbtstack.ipv4onlybig.build.libpicowdefs=-DLWIP_IPV6=0 -DLWIP_IPV4=1 -D__LWIP_MEMMULT=2
+highpuppybot6.menu.ipbtstack.ipv4ipv6big=IPv4 + IPv6 - 32K
+highpuppybot6.menu.ipbtstack.ipv4ipv6big.build.libpicow=liblwip.a
+highpuppybot6.menu.ipbtstack.ipv4ipv6big.build.libpicowdefs=-DLWIP_IPV6=1 -DLWIP_IPV4=1 -D__LWIP_MEMMULT=2
+highpuppybot6.menu.ipbtstack.ipv4btcblebig=IPv4 + Bluetooth - 32K
+highpuppybot6.menu.ipbtstack.ipv4btcblebig.build.libpicow=liblwip-bt.a
+highpuppybot6.menu.ipbtstack.ipv4btcblebig.build.libpicowdefs=-DLWIP_IPV6=0 -DLWIP_IPV4=1 -DENABLE_CLASSIC=1 -DENABLE_BLE=1 -DCYW43_ENABLE_BLUETOOTH=1 -D__LWIP_MEMMULT=2
+highpuppybot6.menu.ipbtstack.ipv4ipv6btcblebig=IPv4 + IPv6 + Bluetooth - 32K
+highpuppybot6.menu.ipbtstack.ipv4ipv6btcblebig.build.libpicow=liblwip-bt.a
+highpuppybot6.menu.ipbtstack.ipv4ipv6btcblebig.build.libpicowdefs=-DLWIP_IPV6=1 -DLWIP_IPV4=1 -DENABLE_CLASSIC=1 -DENABLE_BLE=1 -DCYW43_ENABLE_BLUETOOTH=1 -D__LWIP_MEMMULT=2
+highpuppybot6.menu.uploadmethod.default=Default (UF2)
+highpuppybot6.menu.uploadmethod.default.build.ram_length=512k
+highpuppybot6.menu.uploadmethod.default.build.debugscript=picoprobe_cmsis_dap.tcl
+highpuppybot6.menu.uploadmethod.default.upload.maximum_data_size=524288
+highpuppybot6.menu.uploadmethod.default.upload.tool=uf2conv
+highpuppybot6.menu.uploadmethod.default.upload.tool.default=uf2conv
+highpuppybot6.menu.uploadmethod.default.upload.tool.network=uf2conv-network
+highpuppybot6.menu.uploadmethod.picotool=Picotool
+highpuppybot6.menu.uploadmethod.picotool.build.ram_length=512k
+highpuppybot6.menu.uploadmethod.picotool.build.debugscript=picoprobe.tcl
+highpuppybot6.menu.uploadmethod.picotool.build.picodebugflags=-DENABLE_PICOTOOL_USB
+highpuppybot6.menu.uploadmethod.picotool.upload.maximum_data_size=524288
+highpuppybot6.menu.uploadmethod.picotool.upload.tool=picotool
+highpuppybot6.menu.uploadmethod.picotool.upload.tool.default=picotool
+highpuppybot6.menu.uploadmethod.picoprobe_cmsis_dap=Picoprobe/Debugprobe (CMSIS-DAP)
+highpuppybot6.menu.uploadmethod.picoprobe_cmsis_dap.build.ram_length=512k
+highpuppybot6.menu.uploadmethod.picoprobe_cmsis_dap.build.debugscript=picoprobe_cmsis_dap.tcl
+highpuppybot6.menu.uploadmethod.picoprobe_cmsis_dap.upload.maximum_data_size=524288
+highpuppybot6.menu.uploadmethod.picoprobe_cmsis_dap.upload.tool=picoprobe_cmsis_dap
+highpuppybot6.menu.uploadmethod.picoprobe_cmsis_dap.upload.tool.default=picoprobe_cmsis_dap
+highpuppybot6.upload.maximum_size=4186112
+highpuppybot6.build.flash_total=4194304
+highpuppybot6.build.flash_length=4186112
+highpuppybot6.build.eeprom_start=272621568
+highpuppybot6.build.fs_start=272621568
+highpuppybot6.build.fs_end=272621568
+highpuppybot6.build.variantdefines=-D__PICO_RP2350A=0
